@@ -44,12 +44,15 @@ body {
 
     .panel.active {
         flex: 5;
-        opacity: 1;  
+        opacity: 1; 
+         
     }
 
     .panel.active h3 {
+        position: absolute;
         opacity: 1;
-        transition: opacity 0.1s ease-in 0.1s;
+        transform: translateX(150%);
+        transition: opacity 0.0001s ease-in 0.00001s;
     }
 
     @media screen and (max-width: 480px) {
